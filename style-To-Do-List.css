@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(./getty_623425276_351576.jpg);
+  background-size: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  width: 380px;
+  margin: 0 auto;
+  background-color: rgb(225, 238, 224);
+  height: 550px;
+  margin-top: 20px;
+}
+.main {
+  overflow-y: scroll;
+}
+.main ul {
+  padding: 0;
+  margin: 0;
+}
+.deleteBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+.header {
+  width: 380px;
+  height: 200px;
+  display: block;
+  background-image: url(./To-do-list.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  position: relative;
+}
+#todo {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 45px;
+}
+li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+}
+#ul,
+li {
+  margin-right: 10px;
+}
+button {
+  margin-left: 5px;
+  border-color: #106389;
+  border-radius: 5px;
+  background-color: #106389;
+}
+#submit {
+  margin-left: 15px;
+  border-radius: 5px;
+  background-color: #329bc3;
+  border-color: #329bc3;
+}
+
+#inputbar {
+  width: 270px;
+  height: 20px;
+  border-radius: 5px;
+}
